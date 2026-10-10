@@ -49,7 +49,7 @@
   },
   "funnel_analytics": {
     "page_views": 12450,
-    "product_clicks": 6820,
+    "product_clicks": 6825,
     "add_to_cart": 1420,
     "checkout_started": 620,
     "orders_completed": 385
@@ -96,7 +96,7 @@
       "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
       "rating": 5,
       "reviews_count": 58,
-      "clicks_count": 1840,
+      "clicks_count": 1845,
       "status": "active",
       "short_desc": "Lụa tơ tằm dệt thoáng mát, viền cổ tối giản tinh xảo.",
       "variants": [
@@ -177,7 +177,7 @@
       "sku": "DD-QT-03",
       "category": "Quần Tây Đương Đại",
       "original_price": 550000,
-      "sale_price": 450000,
+      "sale_price": 460000,
       "cogs": 180000,
       "total_stock": 24,
       "low_stock_threshold": 10,
@@ -598,6 +598,31 @@
     "tiktok_pixel_id": "C8928192812019"
   },
   "activity_logs": [
+    {
+      "type": "view",
+      "text": "Khách vừa click xem sản phẩm: \"Áo sơ mi lụa tơ tằm cổ viền đương đại\"",
+      "time": "15:08"
+    },
+    {
+      "type": "view",
+      "text": "Khách vừa click xem sản phẩm: \"Áo sơ mi lụa tơ tằm cổ viền đương đại\"",
+      "time": "15:08"
+    },
+    {
+      "type": "view",
+      "text": "Khách vừa click xem sản phẩm: \"Áo sơ mi lụa tơ tằm cổ viền đương đại\"",
+      "time": "15:08"
+    },
+    {
+      "type": "view",
+      "text": "Khách vừa click xem sản phẩm: \"Áo sơ mi lụa tơ tằm cổ viền đương đại\"",
+      "time": "15:08"
+    },
+    {
+      "type": "view",
+      "text": "Khách vừa click xem sản phẩm: \"Áo sơ mi lụa tơ tằm cổ viền đương đại\"",
+      "time": "15:08"
+    },
     {
       "type": "order",
       "text": "Khách Đặng Bảo Châu đã hoàn tất giao hàng đơn DD-891820",
