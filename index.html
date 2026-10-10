@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kim Cương | CONTEMPORARY VIETNAMESE FASHION - DUONGDAI.VN</title>
+  
+  <!-- SEO & Social Meta -->
+  <meta name="description" content="Kim Cương - Thương hiệu thời trang đương đại mang đậm bản sắc Việt Nam. Tôn vinh vóc dáng Việt Nam bằng chuẩn mực thời trang đương đại.">
+  <meta name="keywords" content="kim cương, contemporary vietnamese fashion, duongdai.vn, thời trang đương đại, thời trang việt nam, thoi trang nam viet">
+
+  <!-- Google Fonts: Plus Jakarta Sans / Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          },
+          colors: {
+            apple: {
+              black: '#000000',
+              titan: '#0B0B0C',
+              surfaceDark: '#121214',
+              surfaceLight: '#FBFBFD',
+              borderDark: 'rgba(255, 255, 255, 0.12)',
+              borderLight: 'rgba(0, 0, 0, 0.08)',
+              textDark: '#F5F5F7',
+              mutedDark: '#A1A1A6',
+              textLight: '#1D1D1F',
+              mutedLight: '#6E6E73',
+              accent: '#C59A58', // Metallic Gold Champagne
+              gold: '#D4AF37',   // Rich Warm Gold
+              accentGlow: 'rgba(197, 154, 88, 0.25)'
+            }
+          },
+          boxShadow: {
+            'apple-glass': '0 8px 32px 0 rgba(0, 0, 0, 0.36)',
+            'apple-light': '0 8px 30px rgba(0, 0, 0, 0.06)',
+            'pill-glow': '0 4px 24px rgba(255, 255, 255, 0.18)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Global Smooth Transitions */
+    *, *::before, *::after {
+      transition-property: background-color, border-color, color, fill, stroke;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Metallic Gold Text Gradient với đệm dọc chống cắt chân chữ và dấu tiếng Việt */
+    .text-gold-metallic {
+      background: linear-gradient(135deg, #F3E7C4 0%, #C59A58 50%, #E8D39E 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      padding-bottom: 0.18em;
+      line-height: normal;
+    }
+
+    /* Luxury Silver/Gold Editorial Title Gradient */
+    .editorial-gradient-text {
+      background: linear-gradient(120deg, #FFFFFF 0%, #E4E4E7 35%, #F5DEB3 75%, #C59A58 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      padding-bottom: 0.15em;
+      line-height: normal;
+    }
+
+    .light .editorial-gradient-text {
+      background: linear-gradient(120deg, #18181B 0%, #3F3F46 50%, #A16207 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      padding-bottom: 0.15em;
+      line-height: normal;
+    }
+
+    /* Custom Selection */
+    ::selection {
+      background-color: #F5F5F7;
+      color: #000000;
+    }
+    .dark ::selection {
+      background-color: #F5F5F7;
+      color: #000000;
+    }
+  </style>
+</head>
+<body class="bg-apple-surfaceLight text-apple-textLight dark:bg-apple-black dark:text-apple-textDark antialiased relative selection:bg-apple-accent selection:text-black overflow-x-hidden">
+
+  <!-- ==========================================
+       TOP ANNOUNCEMENT BAR
+       ========================================== -->
+  <aside aria-label="Thông báo ưu đãi" class="bg-stone-100 dark:bg-apple-titan border-b border-black/5 dark:border-white/10 text-xs py-2 px-4 text-center font-medium tracking-wide">
+    <div class="container mx-auto flex items-center justify-center gap-2 text-apple-mutedLight dark:text-apple-mutedDark">
+      <span class="inline-block w-1.5 h-1.5 rounded-full bg-apple-accent animate-ping"></span>
+      <span class="text-apple-textLight dark:text-apple-textDark font-semibold">DUONGDAI.VN:</span>
+      <span>BST Mới Mở Bán Chỉ Từ 180.000 VNĐ • Miễn Phí Vận Chuyển Toàn Quốc</span>
+    </div>
+  </aside>
+
+  <!-- ==========================================
+       KHỐI 1: HEADER (Logo & Navigation & Theme Switch)
+       ========================================== -->
+  <header class="sticky top-0 z-40 bg-apple-surfaceLight/80 dark:bg-apple-black/80 backdrop-blur-xl border-b border-black/5 dark:border-white/10">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl h-20 py-3 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#hero" class="flex flex-col group focus:outline-none" data-aos="fade-right">
+        <span class="text-2xl sm:text-3xl font-extrabold tracking-tight text-apple-textLight dark:text-white group-hover:text-apple-accent transition-colors">
+          Kim Cương
+        </span>
+        <span class="text-[9px] sm:text-[10px] font-bold tracking-[0.2em] text-apple-mutedLight dark:text-apple-mutedDark uppercase mt-0.5">
+          CONTEMPORARY VIETNAMESE FASHION
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center space-x-7 text-xs font-semibold tracking-wider text-apple-mutedLight dark:text-apple-mutedDark" data-aos="fade-down" data-aos-delay="100">
+        <a href="#collection" class="hover:text-apple-textLight dark:hover:text-white transition-colors">BỘ SƯU TẬP</a>
+        <a href="#benefits" class="hover:text-apple-textLight dark:hover:text-white transition-colors">KỸ NGHỆ THIẾT KẾ</a>
+        <a href="#press-stats" class="hover:text-apple-textLight dark:hover:text-white transition-colors">BÁO CHÍ & TÍN NHIỆM</a>
+        <a href="#social-proof" class="hover:text-apple-textLight dark:hover:text-white transition-colors">ĐÁNH GIÁ</a>
+        <a href="#offer" class="hover:text-apple-textLight dark:hover:text-white transition-colors">ƯU ĐÃI ĐỘC QUYỀN</a>
+      </nav>
+
+      <!-- Action Cluster: Theme Toggle + Header CTA -->
+      <div class="flex items-center space-x-3" data-aos="fade-left">
+        
+        <!-- DARK / LIGHT MODE SWITCH BUTTON -->
+        <button 
+          id="themeToggleBtn"
+          type="button"
+          aria-label="Chuyển đổi giao diện Sáng / Tối"
+          class="relative w-10 h-10 rounded-full flex items-center justify-center bg-black/5 dark:bg-white/10 hover:bg-black/10 dark:hover:bg-white/20 border border-black/10 dark:border-white/15 text-apple-textLight dark:text-white transition-all focus:outline-none"
+        >
+          <!-- Sun Icon (Dark mode) -->
+          <svg id="sunIcon" class="w-4 h-4 hidden dark:block text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+          </svg>
+          <!-- Moon Icon (Light mode) -->
+          <svg id="moonIcon" class="w-4 h-4 block dark:hidden text-stone-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+          </svg>
+        </button>
+
+        <!-- Apple-like Pill CTA -->
+        <a href="#collection" class="inline-flex items-center justify-center px-5 py-2.5 text-xs font-bold tracking-wider rounded-full uppercase bg-black text-white hover:bg-stone-800 dark:bg-white dark:text-black dark:hover:bg-stone-200 transition-all shadow-sm">
+          Xem Sản Phẩm
+        </a>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION (ĐÃ FIX TRIỆT ĐỂ LỖI CẮT CHÂN CHỮ & LINE HEIGHT)
+       ========================================== -->
+  <section id="hero" class="relative pt-12 pb-20 lg:pt-24 lg:pb-32 border-b border-black/5 dark:border-white/10">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        
+        <!-- Left Column: Bọc với max-w-xl lg:max-w-2xl z-10 relative để chống tràn sang ảnh -->
+        <div class="lg:col-span-7 flex flex-col justify-center space-y-7 max-w-xl lg:max-w-2xl z-10 relative">
+          
+          <!-- Eyebrow Badge -->
+          <div class="inline-flex items-center gap-2 self-start py-1 px-3.5 rounded-full bg-black/5 dark:bg-white/10 border border-black/10 dark:border-white/15 text-apple-accent text-[11px] font-bold uppercase tracking-widest" data-aos="fade-down">
+            <span class="w-1.5 h-1.5 rounded-full bg-apple-accent animate-pulse"></span>
+            DUONGDAI.VN · BỘ SƯU TẬP MỚI 2026
+          </div>
+
+          <!-- Headline Hero: 4 DÒNG CHUẨN XÁC, LEADING 1.2, PB-3 CHỐNG CẮT CHÂN CHỮ VÀ DẤU NẶNG -->
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.2] pb-3" data-aos="fade-up" data-aos-delay="100">
+            <!-- Dòng 1: Tôn vinh vóc dáng (#F5F5F7) -->
+            <span class="block text-apple-textLight dark:text-[#F5F5F7]">Tôn vinh vóc dáng</span>
+            
+            <!-- Dòng 2: Việt Nam (Gold metallic) -->
+            <span class="block text-gold-metallic my-1">Việt Nam</span>
+            
+            <!-- Dòng 3 & 4: Bằng chuẩn mực + ngắt dòng thời trang đương đại. (Hiển thị đầy đủ, không cắt chân chữ g và dấu nặng) -->
+            <span class="block text-apple-textLight dark:text-[#F5F5F7]">
+              Bằng chuẩn mực <br class="hidden sm:inline">
+              <span class="text-gold-metallic">thời trang đương đại.</span>
+            </span>
+          </h1>
+
+          <!-- Đoạn mô tả phụ bên dưới -->
+          <p class="text-base sm:text-lg text-apple-mutedLight dark:text-[#A1A1A6] font-normal leading-relaxed max-w-xl" data-aos="fade-up" data-aos-delay="200">
+            Tôn vinh bản sắc Việt qua ngôn ngữ thiết kế tối giản, hiện đại, đưa giá trị di sản và niềm tự hào dân tộc vào từng chi tiết trang phục.
+          </p>
+
+          <!-- CTA Buttons Cluster -->
+          <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4" data-aos="fade-up" data-aos-delay="300">
+            <a href="#collection" class="inline-flex items-center justify-center px-8 py-4 text-sm font-bold tracking-wide rounded-full uppercase bg-black text-white hover:bg-stone-800 dark:bg-white dark:text-black dark:hover:bg-stone-200 dark:shadow-pill-glow transition-all transform hover:-translate-y-0.5 text-center">
+              <span>KHÁM PHÁ 6 THIẾT KẾ MỚI</span>
+              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg>
+            </a>
+            <a href="#press-stats" class="inline-flex items-center justify-center px-7 py-4 text-sm font-semibold tracking-wide rounded-full text-apple-textLight dark:text-white bg-black/5 dark:bg-white/10 hover:bg-black/10 dark:hover:bg-white/15 border border-black/10 dark:border-white/15 transition-all text-center">
+              Đánh Giá Báo Chí
+            </a>
+          </div>
+
+          <!-- Micro-proof Assurance -->
+          <div class="pt-6 border-t border-black/5 dark:border-white/10 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-apple-mutedLight dark:text-apple-mutedDark font-medium" data-aos="fade-up" data-aos-delay="400">
+            <div class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+              <span>Đổi size tận nơi miễn phí 7 ngày</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+              <span>Kiểm tra hàng trước khi thanh toán</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+              <span>Vải chống co rút 100%</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Editorial Hero Lookbook Frame -->
+        <div id="lookbook" class="lg:col-span-5 relative z-0" data-aos="fade-left" data-aos-delay="200">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            <!-- Ambient Glow -->
+            <div class="absolute -inset-4 bg-gradient-to-tr from-amber-600/20 via-white/5 to-transparent rounded-3xl blur-2xl opacity-60"></div>
+            
+            <div class="relative rounded-3xl overflow-hidden border border-black/10 dark:border-white/15 shadow-apple-light dark:shadow-apple-glass bg-stone-100 dark:bg-apple-surfaceDark">
+              <img 
+                src="images/hero-lookbook.png" 
+                onerror="this.onerror=null; this.src='file:///C:/Users/Cuong/.gemini/antigravity/brain/8eec7f8d-0c8f-48a5-a6a9-b723661e4a7e/.user_uploaded/media_1791561779753.png';"
+                alt="Kim Cương Lookbook - Contemporary Vietnamese Fashion" 
+                class="w-full h-[520px] sm:h-[600px] object-cover object-top hover:scale-105 transition-transform duration-700 ease-out"
+                loading="eager"
+              >
+              <!-- Trust Seal Lớn Cao Cấp Che Kín Góc Phải Ảnh -->
+              <div class="absolute bottom-5 right-5 sm:bottom-7 sm:right-7 z-10 flex items-center gap-3 px-4 py-3 sm:px-5 sm:py-3.5 rounded-2xl bg-black/95 dark:bg-black/95 backdrop-blur-xl border border-amber-400/50 text-white shadow-2xl pointer-events-none select-none">
+                <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shrink-0 shadow-md">
+                  <svg class="w-4 h-4 sm:w-5 sm:h-5 text-black" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="text-[11px] sm:text-xs font-black tracking-widest uppercase text-amber-300 leading-tight">100% Chính Hãng</div>
+                  <div class="text-[9.5px] sm:text-[10.5px] font-semibold text-stone-200 tracking-wide leading-tight">Kim Cương · Authentic</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       KHỐI SOCIAL PROOF METRICS & TRUST BADGES
+       ========================================== -->
+  <section class="py-16 bg-stone-50 dark:bg-apple-titan border-b border-black/5 dark:border-white/10">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+      
+      <!-- Hàng chỉ số uy tín lớn -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-4 text-center border-b border-black/5 dark:border-white/10 pb-12">
+        <div data-aos="zoom-in" data-aos-delay="100">
+          <div class="text-4xl sm:text-5xl font-black text-apple-textLight dark:text-white tracking-tight flex items-center justify-center gap-1">
+            <span>4.9 / 5</span>
+            <span class="text-amber-400 text-3xl">★</span>
+          </div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark mt-2 font-medium">Đánh giá độ hài lòng về chất vải & đường may</p>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-delay="200">
+          <div class="text-4xl sm:text-5xl font-black text-apple-accent tracking-tight">
+            15.000+
+          </div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark mt-2 font-medium">Sản phẩm đương đại đã đến tay người trẻ Việt</p>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-delay="300">
+          <div class="text-4xl sm:text-5xl font-black text-apple-textLight dark:text-white tracking-tight">
+            100%
+          </div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark mt-2 font-medium">Vải được kiểm duyệt nghiêm ngặt chống co rút</p>
+        </div>
+      </div>
+
+      <!-- Hàng 4 Huy hiệu tin cậy nhỏ (Trust Badges với SVG sắc nét) -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-12">
+        
+        <!-- Badge 1: Khiên cam kết -->
+        <div class="flex items-center gap-3.5 p-3.5 rounded-2xl bg-white/60 dark:bg-white/5 border border-black/5 dark:border-white/10" data-aos="fade-up" data-aos-delay="100">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center text-apple-accent shrink-0">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-apple-textLight dark:text-white">Chính Hãng 100%</h4>
+            <p class="text-[11px] text-apple-mutedLight dark:text-apple-mutedDark">Sản xuất bởi Thời Trang Nam Việt</p>
+          </div>
+        </div>
+
+        <!-- Badge 2: Đổi trả tận nơi -->
+        <div class="flex items-center gap-3.5 p-3.5 rounded-2xl bg-white/60 dark:bg-white/5 border border-black/5 dark:border-white/10" data-aos="fade-up" data-aos-delay="200">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-500 shrink-0">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+            </svg>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-apple-textLight dark:text-white">Đổi Size Tận Nơi 7 Ngày</h4>
+            <p class="text-[11px] text-apple-mutedLight dark:text-apple-mutedDark">Shipper đến tận nhà miễn phí</p>
+          </div>
+        </div>
+
+        <!-- Badge 3: Đồng kiểm khi giao -->
+        <div class="flex items-center gap-3.5 p-3.5 rounded-2xl bg-white/60 dark:bg-white/5 border border-black/5 dark:border-white/10" data-aos="fade-up" data-aos-delay="300">
+          <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 shrink-0">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+            </svg>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-apple-textLight dark:text-white">Đồng Kiểm Khi Nhận</h4>
+            <p class="text-[11px] text-apple-mutedLight dark:text-apple-mutedDark">Xem thử chất liệu mới thanh toán</p>
+          </div>
+        </div>
+
+        <!-- Badge 4: Bảo hành đường may -->
+        <div class="flex items-center gap-3.5 p-3.5 rounded-2xl bg-white/60 dark:bg-white/5 border border-black/5 dark:border-white/10" data-aos="fade-up" data-aos-delay="400">
+          <div class="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 shrink-0">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.828 2.828a4 4 0 11-5.657-5.656l2.828-2.829M12 12L9.172 9.172a4 4 0 10-5.657 5.656L12 12z"></path>
+            </svg>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-apple-textLight dark:text-white">Bảo Hành Đường May</h4>
+            <p class="text-[11px] text-apple-mutedLight dark:text-apple-mutedDark">Cam kết trọn đời khuy cúc & chỉ</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       KHỐI 2: BỘ SƯU TẬP 6 SẢN PHẨM THIẾT KẾ ĐƯƠNG ĐẠI
+       ========================================== -->
+  <section id="collection" class="py-24 sm:py-32 bg-apple-surfaceLight dark:bg-apple-black border-b border-black/5 dark:border-white/10">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+      
+      <!-- Section Title -->
+      <div class="max-w-4xl mx-auto text-center mb-20" data-aos="fade-up">
+        <span class="text-[11px] font-bold uppercase tracking-[0.25em] text-apple-accent mb-3 block">
+          DUONGDAI.VN · COLLECTION 2026
+        </span>
+        
+        <h2 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-normal text-apple-textLight dark:text-white mt-3">
+          <span class="editorial-gradient-text drop-shadow-sm">6 Thiết Kế Đương Đại Tiêu Biểu</span>
+        </h2>
+        
+        <p class="text-sm sm:text-base text-apple-mutedLight dark:text-apple-mutedDark mt-4 max-w-2xl mx-auto leading-relaxed">
+          Tối giản trong từng đường nét, tinh tuyển trong chất liệu và tối ưu tỉ mỉ cho vóc dáng giới trẻ hiện đại.
+        </p>
+      </div>
+
+      <!-- 6 Products Grid (Tỉ lệ ảnh 3:4) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Sản phẩm 1 -->
+        <div class="group rounded-3xl overflow-hidden bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+          <div class="relative overflow-hidden aspect-[3/4] bg-stone-100 dark:bg-stone-900">
+            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-black text-white dark:bg-white dark:text-black">
+              New Arrival
+            </span>
+            <img 
+              src="images/somi.png" 
+              onerror="this.onerror=null; this.src='file:///C:/Users/Cuong/.gemini/antigravity/brain/8eec7f8d-0c8f-48a5-a6a9-b723661e4a7e/.user_uploaded/media_1791560918855.png';"
+              alt="Áo sơ mi lụa tơ tằm cổ viền đương đại" 
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            >
+            <!-- Trust Seal Lớn Cao Cấp Che Kín Góc Phải Ảnh -->
+            <div class="absolute bottom-4 right-4 sm:bottom-5 sm:right-5 z-10 flex items-center gap-2.5 px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-2xl bg-black/95 dark:bg-black/95 backdrop-blur-xl border border-amber-400/50 text-white shadow-2xl pointer-events-none select-none">
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shrink-0 shadow-md">
+                <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-black" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="text-[10px] sm:text-[11px] font-black tracking-wider uppercase text-amber-300 leading-tight">Chứng Nhận Chuẩn</div>
+                <div class="text-[8.5px] sm:text-[9.5px] font-semibold text-stone-200 tracking-wide leading-tight">Lụa Tơ Tằm 100%</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[10px] font-bold uppercase tracking-wider text-apple-accent mb-1">Áo Sơ Mi Thiết Kế</div>
+            <h3 class="text-base font-bold text-apple-textLight dark:text-white group-hover:text-apple-accent transition-colors">
+              Áo sơ mi lụa tơ tằm cổ viền đương đại
+            </h3>
+            <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark mt-1">Lụa tơ tằm dệt thoáng mát, viền cổ tối giản tinh xảo.</p>
+            <div class="mt-4 pt-4 border-t border-black/5 dark:border-white/10 flex items-center justify-between">
+              <span class="text-lg font-extrabold text-apple-textLight dark:text-white">390.000 VNĐ</span>
+              <a href="#offer" class="px-4 py-2 rounded-full text-xs font-bold bg-black/5 dark:bg-white/10 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
+                Chọn Mua
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sản phẩm 2 -->
+        <div class="group rounded-3xl overflow-hidden bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
+          <div class="relative overflow-hidden aspect-[3/4] bg-stone-100 dark:bg-stone-900">
+            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-amber-500 text-white font-extrabold">
+              Best Seller
+            </span>
+            <img 
+              src="images/thun.png" 
+              onerror="this.onerror=null; this.src='file:///C:/Users/Cuong/.gemini/antigravity/brain/8eec7f8d-0c8f-48a5-a6a9-b723661e4a7e/.user_uploaded/media_1791560933022.png';"
+              alt="Áo thun dệt kim Premium thoáng khí" 
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            >
+            <!-- Trust Seal Lớn Cao Cấp Che Kín Góc Phải Ảnh -->
+            <div class="absolute bottom-4 right-4 sm:bottom-5 sm:right-5 z-10 flex items-center gap-2.5 px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-2xl bg-black/95 dark:bg-black/95 backdrop-blur-xl border border-amber-400/50 text-white shadow-2xl pointer-events-none select-none">
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shrink-0 shadow-md">
+                <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-black" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="text-[10px] sm:text-[11px] font-black tracking-wider uppercase text-amber-300 leading-tight">Chứng Nhận Chuẩn</div>
+                <div class="text-[8.5px] sm:text-[9.5px] font-semibold text-stone-200 tracking-wide leading-tight">Dệt Mắt Kim 4D</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[10px] font-bold uppercase tracking-wider text-apple-accent mb-1">Áo Thun Dệt Kim</div>
+            <h3 class="text-base font-bold text-apple-textLight dark:text-white group-hover:text-apple-accent transition-colors">
+              Áo thun dệt kim Premium thoáng khí
+            </h3>
+            <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark mt-1">Cấu trúc dệt mắt kim thông thoáng, co giãn 4 chiều.</p>
+            <div class="mt-4 pt-4 border-t border-black/5 dark:border-white/10 flex items-center justify-between">
+              <span class="text-lg font-extrabold text-apple-textLight dark:text-white">220.000 VNĐ</span>
+              <a href="#offer" class="px-4 py-2 rounded-full text-xs font-bold bg-black/5 dark:bg-white/10 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
+                Chọn Mua
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sản phẩm 3 -->
+        <div class="group rounded-3xl overflow-hidden bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+          <div class="relative overflow-hidden aspect-[3/4] bg-stone-100 dark:bg-stone-900">
+            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-black text-white dark:bg-white dark:text-black">
+              New Arrival
+            </span>
+            <img 
+              src="images/quan-tay.png" 
+              onerror="this.onerror=null; this.src='file:///C:/Users/Cuong/.gemini/antigravity/brain/8eec7f8d-0c8f-48a5-a6a9-b723661e4a7e/.user_uploaded/media_1791560938984.png';"
+              alt="Quần tây phom rộng ly xếp tối giản" 
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            >
+            <!-- Trust Seal Lớn Cao Cấp Che Kín Góc Phải Ảnh -->
+            <div class="absolute bottom-4 right-4 sm:bottom-5 sm:right-5 z-10 flex items-center gap-2.5 px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-2xl bg-black/95 dark:bg-black/95 backdrop-blur-xl border border-amber-400/50 text-white shadow-2xl pointer-events-none select-none">
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shrink-0 shadow-md">
+                <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-black" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="text-[10px] sm:text-[11px] font-black tracking-wider uppercase text-amber-300 leading-tight">Chứng Nhận Chuẩn</div>
+                <div class="text-[8.5px] sm:text-[9.5px] font-semibold text-stone-200 tracking-wide leading-tight">Rập Phom Chuẩn Việt</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[10px] font-bold uppercase tracking-wider text-apple-accent mb-1">Quần Tây Đương Đại</div>
+            <h3 class="text-base font-bold text-apple-textLight dark:text-white group-hover:text-apple-accent transition-colors">
+              Quần tây phom rộng ly xếp tối giản
+            </h3>
+            <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark mt-1">Phom suông hiện đại tôn dáng chân, lưng quần êm ái.</p>
+            <div class="mt-4 pt-4 border-t border-black/5 dark:border-white/10 flex items-center justify-between">
+              <span class="text-lg font-extrabold text-apple-textLight dark:text-white">450.000 VNĐ</span>
+              <a href="#offer" class="px-4 py-2 rounded-full text-xs font-bold bg-black/5 dark:bg-white/10 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
+                Chọn Mua
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sản phẩm 4 -->
+        <div class="group rounded-3xl overflow-hidden bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+          <div class="relative overflow-hidden aspect-[3/4] bg-stone-100 dark:bg-stone-900">
+            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-amber-500 text-white font-extrabold">
+              Best Seller
+            </span>
+            <img 
+              src="images/blazer.png" 
+              onerror="this.onerror=null; this.src='file:///C:/Users/Cuong/.gemini/antigravity/brain/8eec7f8d-0c8f-48a5-a6a9-b723661e4a7e/.user_uploaded/media_1791560948382.png';"
+              alt="Áo khoác Blazer lửng phong cách Việt" 
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            >
+            <!-- Trust Seal Lớn Cao Cấp Che Kín Góc Phải Ảnh -->
+            <div class="absolute bottom-4 right-4 sm:bottom-5 sm:right-5 z-10 flex items-center gap-2.5 px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-2xl bg-black/95 dark:bg-black/95 backdrop-blur-xl border border-amber-400/50 text-white shadow-2xl pointer-events-none select-none">
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shrink-0 shadow-md">
+                <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-black" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="text-[10px] sm:text-[11px] font-black tracking-wider uppercase text-amber-300 leading-tight">Chứng Nhận Chuẩn</div>
+                <div class="text-[8.5px] sm:text-[9.5px] font-semibold text-stone-200 tracking-wide leading-tight">Kỹ Nghệ Thủ Công</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[10px] font-bold uppercase tracking-wider text-apple-accent mb-1">Blazer Đương Đại</div>
+            <h3 class="text-base font-bold text-apple-textLight dark:text-white group-hover:text-apple-accent transition-colors">
+              Áo khoác Blazer lửng phong cách Việt
+            </h3>
+            <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark mt-1">Vai đệm nhẹ tự nhiên, tôn dáng thanh lịch cho nam & nữ.</p>
+            <div class="mt-4 pt-4 border-t border-black/5 dark:border-white/10 flex items-center justify-between">
+              <span class="text-lg font-extrabold text-apple-textLight dark:text-white">490.000 VNĐ</span>
+              <a href="#offer" class="px-4 py-2 rounded-full text-xs font-bold bg-black/5 dark:bg-white/10 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
+                Chọn Mua
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sản phẩm 5 -->
+        <div class="group rounded-3xl overflow-hidden bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
+          <div class="relative overflow-hidden aspect-[3/4] bg-stone-100 dark:bg-stone-900">
+            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-black text-white dark:bg-white dark:text-black">
+              New Arrival
+            </span>
+            <img 
+              src="images/polo.png" 
+              onerror="this.onerror=null; this.src='file:///C:/Users/Cuong/.gemini/antigravity/brain/8eec7f8d-0c8f-48a5-a6a9-b723661e4a7e/.user_uploaded/media_1791560955437.png';"
+              alt="Áo Polo dệt sợi modal phom chuẩn Việt" 
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            >
+            <!-- Trust Seal Lớn Cao Cấp Che Kín Góc Phải Ảnh -->
+            <div class="absolute bottom-4 right-4 sm:bottom-5 sm:right-5 z-10 flex items-center gap-2.5 px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-2xl bg-black/95 dark:bg-black/95 backdrop-blur-xl border border-amber-400/50 text-white shadow-2xl pointer-events-none select-none">
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shrink-0 shadow-md">
+                <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-black" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="text-[10px] sm:text-[11px] font-black tracking-wider uppercase text-amber-300 leading-tight">Chứng Nhận Chuẩn</div>
+                <div class="text-[8.5px] sm:text-[9.5px] font-semibold text-stone-200 tracking-wide leading-tight">Sợi Modal Sinh Thái</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[10px] font-bold uppercase tracking-wider text-apple-accent mb-1">Polo Minimalist</div>
+            <h3 class="text-base font-bold text-apple-textLight dark:text-white group-hover:text-apple-accent transition-colors">
+              Áo Polo dệt sợi modal phom chuẩn Việt
+            </h3>
+            <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark mt-1">Sợi Modal gỗ sồi mềm mượt, cổ áo ép nhiệt chống quăn mép.</p>
+            <div class="mt-4 pt-4 border-t border-black/5 dark:border-white/10 flex items-center justify-between">
+              <span class="text-lg font-extrabold text-apple-textLight dark:text-white">280.000 VNĐ</span>
+              <a href="#offer" class="px-4 py-2 rounded-full text-xs font-bold bg-black/5 dark:bg-white/10 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
+                Chọn Mua
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sản phẩm 6 -->
+        <div class="group rounded-3xl overflow-hidden bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+          <div class="relative overflow-hidden aspect-[3/4] bg-stone-100 dark:bg-stone-900">
+            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-amber-500 text-white font-extrabold">
+              Best Seller
+            </span>
+            <img 
+              src="images/quan-short.png" 
+              onerror="this.onerror=null; this.src='file:///C:/Users/Cuong/.gemini/antigravity/brain/8eec7f8d-0c8f-48a5-a6a9-b723661e4a7e/.user_uploaded/media_1791561284280.png';"
+              alt="Quần short may đo vải đũi tự nhiên" 
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            >
+            <!-- Trust Seal Lớn Cao Cấp Che Kín Góc Phải Ảnh -->
+            <div class="absolute bottom-4 right-4 sm:bottom-5 sm:right-5 z-10 flex items-center gap-2.5 px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-2xl bg-black/95 dark:bg-black/95 backdrop-blur-xl border border-amber-400/50 text-white shadow-2xl pointer-events-none select-none">
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shrink-0 shadow-md">
+                <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-black" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="text-[10px] sm:text-[11px] font-black tracking-wider uppercase text-amber-300 leading-tight">Chứng Nhận Chuẩn</div>
+                <div class="text-[8.5px] sm:text-[9.5px] font-semibold text-stone-200 tracking-wide leading-tight">Đũi Mộc Tự Nhiên</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-[10px] font-bold uppercase tracking-wider text-apple-accent mb-1">Quần Short May Đo</div>
+            <h3 class="text-base font-bold text-apple-textLight dark:text-white group-hover:text-apple-accent transition-colors">
+              Quần short may đo vải đũi tự nhiên
+            </h3>
+            <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark mt-1">Đũi mộc mạc thoáng nhiệt, phom may đo thoải mái vận động.</p>
+            <div class="mt-4 pt-4 border-t border-black/5 dark:border-white/10 flex items-center justify-between">
+              <span class="text-lg font-extrabold text-apple-textLight dark:text-white">190.000 VNĐ</span>
+              <a href="#offer" class="px-4 py-2 rounded-full text-xs font-bold bg-black/5 dark:bg-white/10 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
+                Chọn Mua
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       KHỐI 3: BENTO GRID - BENEFITS & CRAFTSMANSHIP
+       (TIÊU ĐỀ 1 DÒNG DUY NHẤT VỚI GRADIENT ÁNH KIM, SPACING RỘNG RÃI)
+       ========================================== -->
+  <section id="benefits" class="py-24 md:py-32 bg-apple-surfaceLight dark:bg-apple-black border-b border-black/5 dark:border-white/10">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+      
+      <!-- Section Header: TIÊU ĐỀ ÉP 1 DÒNG DUY NHẤT VỚI HIỆU ỨNG ÁNH KIM -->
+      <div class="max-w-5xl mx-auto text-center mb-20" data-aos="fade-up">
+        <span class="text-[11px] font-bold uppercase tracking-[0.25em] text-apple-accent mb-3 block">GIÁ TRỊ CỐT LÕI</span>
+        
+        <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-normal text-apple-textLight dark:text-white mt-2 whitespace-nowrap overflow-hidden text-ellipsis">
+          <span class="editorial-gradient-text drop-shadow-md">Kỹ nghệ tối giản. Chuẩn mực trường tồn.</span>
+        </h2>
+        
+        <p class="text-sm sm:text-base text-apple-mutedLight dark:text-apple-mutedDark mt-4 leading-relaxed max-w-2xl mx-auto">
+          Từng chi tiết được kiến tạo với tinh thần nghiêm cẩn của thiết kế đương đại Việt Nam.
+        </p>
+      </div>
+
+      <!-- Bento Grid Layout -->
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8">
+        
+        <!-- Bento Cell 1: 8 Cols -->
+        <div class="md:col-span-8 p-6 sm:p-8 lg:p-10 rounded-3xl bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 flex flex-col justify-between hover:border-black/20 dark:hover:border-white/20 transition-all" data-aos="fade-right">
+          <div class="w-full">
+            <span class="text-xs font-bold text-apple-accent uppercase tracking-wider block mb-2">Chất Liệu Tuyển Chọn</span>
+            
+            <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-apple-textLight dark:text-white leading-snug sm:whitespace-nowrap overflow-hidden text-ellipsis mb-4">
+              100% Sợi Dệt Tự Nhiên. Thoáng khí diệu kỳ.
+            </h3>
+            
+            <p class="text-sm sm:text-base text-apple-mutedLight dark:text-apple-mutedDark leading-relaxed">
+              Tuyển chọn dòng Cotton hữu cơ dệt mật độ cao kết hợp sợi Tencel sinh thái và Lụa tơ tằm tự nhiên. Kết cấu vải đanh mịn, tạo cảm giác êm dịu trên làn da và thích nghi hoàn hảo với điều kiện khí hậu nhiệt đới Việt Nam.
+            </p>
+          </div>
+          <div class="mt-8 pt-6 border-t border-black/5 dark:border-white/10 flex flex-wrap gap-2.5 sm:gap-3">
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-semibold bg-black/5 dark:bg-white/10 text-apple-textLight dark:text-white">Thấm hút tự nhiên</span>
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-semibold bg-black/5 dark:bg-white/10 text-apple-textLight dark:text-white">Chống nhăn cơ học</span>
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-semibold bg-black/5 dark:bg-white/10 text-apple-textLight dark:text-white">Kiểm duyệt chống co rút 100%</span>
+          </div>
+        </div>
+
+        <!-- Bento Cell 2: 4 Cols (Đã sửa lỗi chữ "Việt" rớt dòng -> hiển thị liền mạch 1 dòng) -->
+        <div class="md:col-span-4 p-6 sm:p-8 lg:p-10 rounded-3xl bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 flex flex-col justify-between hover:border-black/20 dark:hover:border-white/20 transition-all" data-aos="fade-left">
+          <div class="w-full">
+            <span class="text-xs font-bold text-apple-accent uppercase tracking-wider block mb-2">Cấu Trúc Hình Thể</span>
+            
+            <!-- Tiêu đề Card 1: text-base lg:text-lg whitespace-nowrap hiển thị trọn vẹn 1 dòng -->
+            <h3 class="text-base sm:text-lg font-bold text-apple-textLight dark:text-white mb-3 whitespace-nowrap overflow-hidden text-ellipsis leading-snug">
+              Rập Phom Chuẩn Vóc Dáng Việt
+            </h3>
+            
+            <p class="text-sm text-apple-mutedLight dark:text-apple-mutedDark leading-relaxed">
+              Tổng hợp từ 2.000 số đo thực tế để cân chỉnh độ xuôi vai, vòng ngực và tỷ lệ tà áo, mang lại vẻ thanh thoát và thoải mái vận động.
+            </p>
+          </div>
+          <div class="mt-6 text-3xl font-bold tracking-tight text-apple-textLight dark:text-white">
+            2.000+ <span class="text-xs font-normal text-apple-mutedLight dark:text-apple-mutedDark">Mẫu số đo thực tế</span>
+          </div>
+        </div>
+
+        <!-- Bento Cell 3: 4 Cols (Đã sửa hiển thị đầy đủ cụm "Học Đường, Công Sở Đến Dạo Phố" 1 dòng) -->
+        <div class="md:col-span-4 p-6 sm:p-8 lg:p-10 rounded-3xl bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 flex flex-col justify-between hover:border-black/20 dark:hover:border-white/20 transition-all" data-aos="fade-right">
+          <div class="w-full">
+            <span class="text-xs font-bold text-apple-accent uppercase tracking-wider block mb-2">Ứng Dụng Đa Năng</span>
+            
+            <!-- Tiêu đề Card 2: text-base sm:text-base lg:text-lg font-bold whitespace-nowrap hiển thị liền mạch 1 dòng -->
+            <h3 class="text-base sm:text-base lg:text-lg font-bold text-apple-textLight dark:text-white mb-3 whitespace-nowrap overflow-hidden text-ellipsis leading-snug">
+              Học Đường, Công Sở Đến Dạo Phố
+            </h3>
+            
+            <p class="text-sm text-apple-mutedLight dark:text-apple-mutedDark leading-relaxed">
+              Ngôn ngữ thiết kế tối giản tinh gọn (Timeless Minimalism). Dễ dàng phối cùng âu phục lịch lãm hoặc quần short trẻ trung.
+            </p>
+          </div>
+          <div class="mt-6">
+            <span class="text-xs font-semibold text-apple-accent">#ContemporaryLifestyle</span>
+          </div>
+        </div>
+
+        <!-- Bento Cell 4: 8 Cols -->
+        <div class="md:col-span-8 p-6 sm:p-8 lg:p-10 rounded-3xl bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 flex flex-col justify-between hover:border-black/20 dark:hover:border-white/20 transition-all" data-aos="fade-left">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+            <div>
+              <span class="text-xs font-bold text-apple-accent uppercase tracking-wider block mb-2">Tiêu Chuẩn Chế Tác</span>
+              <h3 class="text-xl sm:text-2xl font-bold text-apple-textLight dark:text-white mb-3">
+                18 Mũi Chỉ / Inch.
+              </h3>
+              <p class="text-sm text-apple-mutedLight dark:text-apple-mutedDark leading-relaxed">
+                Đường may giấu chỉ tinh tế cùng cúc xà cừ tự nhiên được khâu tay thủ công. Quy trình ép keo cổ áo kỹ thuật Đức giữ phom cổ chuẩn chỉn sau hàng trăm chu kỳ giặt.
+              </p>
+            </div>
+            <div class="space-y-2.5 text-xs text-apple-textLight dark:text-stone-300">
+              <div class="p-3 rounded-xl bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10">✓ Cúc xà cừ tự nhiên nguyên khối</div>
+              <div class="p-3 rounded-xl bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10">✓ Bo lai giấu chỉ chuẩn may đo cao cấp</div>
+              <div class="p-3 rounded-xl bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10">✓ Kiểm soát chất lượng 4 lớp độc lập</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       KHỐI MỚI: ĐÁNH GIÁ CHÍNH THỨC TỪ BÁO CHÍ VÀ CỘNG ĐỒNG
+       (KHOẢNG THỞ ĐỆM LỚN py-24 md:py-32 TÁCH BIỆT HOÀN TOÀN)
+       ========================================== -->
+  <section id="press-stats" class="py-24 md:py-32 bg-stone-50 dark:bg-apple-titan border-b border-black/5 dark:border-white/10">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+      
+      <!-- Section Header (Đã tăng line-height leading-[1.3] md:leading-[1.35] chống đè chữ) -->
+      <div class="text-center max-w-4xl mx-auto mb-20" data-aos="fade-up">
+        <span class="text-[11px] font-bold uppercase tracking-[0.25em] text-apple-accent mb-3 block">SỰ CÔNG NHẬN CHUYÊN MÔN</span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-normal text-apple-textLight dark:text-white mt-2 leading-[1.3] md:leading-[1.35] pb-2">
+          ĐÁNH GIÁ CHÍNH THỨC TỪ BÁO CHÍ VÀ CỘNG ĐỒNG
+        </h2>
+        <p class="text-sm sm:text-base text-apple-mutedLight dark:text-apple-mutedDark mt-4 max-w-2xl mx-auto leading-relaxed">
+          Những góc nhìn khách quan từ các tạp chí uy tín và các chuyên gia phong cách hàng đầu.
+        </p>
+      </div>
+
+      <!-- Hàng 1: 4 Thẻ trích dẫn báo chí & chuyên môn (Bento / Frosted Glass Cards) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+        
+        <!-- Thẻ 1 -->
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 flex flex-col justify-between hover:border-black/20 dark:hover:border-white/20 transition-all text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-lg font-bold text-apple-textLight dark:text-white mb-2">Vogue VN / Elle VN</div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark italic leading-relaxed">
+            "Định hình lại chuẩn mực may đo đương đại cho người Việt."
+          </p>
+          <div class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[10px] font-bold text-apple-accent uppercase tracking-wider">
+            Tạp Chí Phong Cách
+          </div>
+        </div>
+
+        <!-- Thẻ 2 -->
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 flex flex-col justify-between hover:border-black/20 dark:hover:border-white/20 transition-all text-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-lg font-bold text-amber-500 mb-2">VnExpress</div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark italic leading-relaxed">
+            "Chất vải dệt tự nhiên thích ứng hoàn hảo khí hậu nhiệt đới."
+          </p>
+          <div class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[10px] font-bold text-apple-accent uppercase tracking-wider">
+            Báo Điện Tử Uy Tín
+          </div>
+        </div>
+
+        <!-- Thẻ 3 -->
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 flex flex-col justify-between hover:border-black/20 dark:hover:border-white/20 transition-all text-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="text-lg font-bold text-emerald-500 mb-2">Dân Trí</div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark italic leading-relaxed">
+            "Phom dáng tối giản, tinh tế từ học đường đến công sở."
+          </p>
+          <div class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[10px] font-bold text-apple-accent uppercase tracking-wider">
+            Đời Sống & Giới Trẻ
+          </div>
+        </div>
+
+        <!-- Thẻ 4 -->
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 flex flex-col justify-between hover:border-black/20 dark:hover:border-white/20 transition-all text-center" data-aos="fade-up" data-aos-delay="400">
+          <div class="text-lg font-bold text-red-500 mb-2">GenK / Cố Vấn</div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark italic leading-relaxed">
+            "Tỉ lệ hoàn thiện và đường kim mũi chỉ đạt độ chuẩn mực cao."
+          </p>
+          <div class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[10px] font-bold text-apple-accent uppercase tracking-wider">
+            Góc Nhìn Tiêu Dùng
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Hàng 2: 4 Thẻ số liệu Big Counters nổi bật (Apple Stats Grid) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Big Counter 1 -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 text-center hover:border-black/20 dark:hover:border-white/20 transition-all" data-aos="zoom-in" data-aos-delay="100">
+          <div class="text-3xl sm:text-4xl font-black text-apple-textLight dark:text-white tracking-tight font-mono">
+            1.250+
+          </div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark mt-2 font-medium">
+            Đơn đặt trước trong 24h mở bán
+          </p>
+        </div>
+
+        <!-- Big Counter 2 -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 text-center hover:border-black/20 dark:hover:border-white/20 transition-all" data-aos="zoom-in" data-aos-delay="200">
+          <div class="text-3xl sm:text-4xl font-black text-apple-accent tracking-tight font-mono">
+            99.8%
+          </div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark mt-2 font-medium">
+            Mức độ hài lòng về phom dáng
+          </p>
+        </div>
+
+        <!-- Big Counter 3 -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 text-center hover:border-black/20 dark:hover:border-white/20 transition-all" data-aos="zoom-in" data-aos-delay="300">
+          <div class="text-3xl sm:text-4xl font-black text-amber-400 tracking-tight font-mono">
+            35/100
+          </div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark mt-2 font-medium">
+            Suất quà độc quyền còn lại
+          </p>
+        </div>
+
+        <!-- Big Counter 4 -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 text-center hover:border-black/20 dark:hover:border-white/20 transition-all" data-aos="zoom-in" data-aos-delay="400">
+          <div class="text-3xl sm:text-4xl font-black text-emerald-500 tracking-tight font-mono">
+            100%
+          </div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark mt-2 font-medium">
+            Sợi dệt tự nhiên qua kiểm định
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       KHỐI 4: SOCIAL PROOF TESTIMONIALS
+       ========================================== -->
+  <section id="social-proof" class="py-24 sm:py-32 bg-stone-50 dark:bg-apple-titan border-b border-black/5 dark:border-white/10">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+      
+      <!-- Headline -->
+      <div class="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
+        <span class="text-[11px] font-bold uppercase tracking-[0.25em] text-apple-accent mb-3 block">SỰ HÀI LÒNG CỦA KHÁCH HÀNG</span>
+        <h2 class="text-3xl sm:text-5xl font-semibold tracking-normal text-apple-textLight dark:text-white mt-2">
+          Hơn <span class="text-apple-accent">15.000+</span> khách hàng đồng hành cùng Kim Cương.
+        </h2>
+        <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark mt-3">Trải nghiệm thực tế từ các bạn trẻ yêu phong cách tối giản đương đại.</p>
+      </div>
+
+      <!-- 3 Glassmorphism Testimonial Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        
+        <!-- Card 1 -->
+        <article class="p-8 rounded-3xl bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 shadow-sm hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+          <div>
+            <div class="text-amber-400 text-xs tracking-widest mb-4">★★★★★</div>
+            <p class="text-sm sm:text-base leading-relaxed text-apple-textLight dark:text-stone-300 italic mb-8">
+              "Giá chỉ 390k cho một chiếc áo sơ mi lụa tơ tằm phom đương đại là quá bất ngờ! Vai áo rủ rất tự nhiên, mặc lên lớp dạy học hay đi cafe với bạn bè đều nhận được lời khen."
+            </p>
+          </div>
+          <div class="flex items-center gap-3.5 pt-4 border-t border-black/5 dark:border-white/10">
+            <img class="w-11 h-11 rounded-full object-cover border border-black/10 dark:border-white/20" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Mai Anh">
+            <div>
+              <h3 class="text-sm font-bold text-apple-textLight dark:text-white">Mai Anh</h3>
+              <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark">Giảng viên trẻ · TP. Hồ Chí Minh</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="p-8 rounded-3xl bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 shadow-sm hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
+          <div>
+            <div class="text-amber-400 text-xs tracking-widest mb-4">★★★★★</div>
+            <p class="text-sm sm:text-base leading-relaxed text-apple-textLight dark:text-stone-300 italic mb-8">
+              "Mình đã mua chiếc áo thun dệt kim 220k và quần tây 450k. Vải dệt cực kỳ thoáng mát, giặt máy nhiều lần mà không hề bị rút chỉ hay bai xù. Đáng tiền hơn hẳn đồ Streetwear tiền triệu!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3.5 pt-4 border-t border-black/5 dark:border-white/10">
+            <img class="w-11 h-11 rounded-full object-cover border border-black/10 dark:border-white/20" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Hoàng Long">
+            <div>
+              <h3 class="text-sm font-bold text-apple-textLight dark:text-white">Hoàng Long</h3>
+              <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark">Kiến trúc sư · Hà Nội</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="p-8 rounded-3xl bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 shadow-sm hover:border-black/20 dark:hover:border-white/20 transition-all flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+          <div>
+            <div class="text-amber-400 text-xs tracking-widest mb-4">★★★★★</div>
+            <p class="text-sm sm:text-base leading-relaxed text-apple-textLight dark:text-stone-300 italic mb-8">
+              "Dịch vụ tuyệt vời. Shipper mang tận nơi cho kiểm tra hàng, đóng gói hộp cứng bảo vệ môi trường rất đẹp. Được đổi size tận nhà không mất đồng phí nào. Rất tự hào về thương hiệu Việt!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3.5 pt-4 border-t border-black/5 dark:border-white/10">
+            <img class="w-11 h-11 rounded-full object-cover border border-black/10 dark:border-white/20" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Thu Trang">
+            <div>
+              <h3 class="text-sm font-bold text-apple-textLight dark:text-white">Thu Trang</h3>
+              <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark">Senior Brand Manager · Đà Nẵng</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       KHỐI 5: OFFER & URGENCY (COUNTDOWN & ORDER FORM)
+       ========================================== -->
+  <section id="offer" class="py-24 sm:py-32 bg-stone-100 dark:bg-apple-titan border-b border-black/5 dark:border-white/10 relative overflow-hidden">
+    
+    <!-- Ambient Glow Accent -->
+    <div class="absolute -top-32 -right-32 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl relative z-10">
+      
+      <!-- Section Title -->
+      <div class="text-center max-w-2xl mx-auto mb-14" data-aos="fade-up">
+        <span class="inline-block py-1 px-4 rounded-full bg-black/5 dark:bg-white/10 border border-black/10 dark:border-white/15 text-apple-accent text-xs font-bold uppercase tracking-widest mb-3">
+          CHƯƠNG TRÌNH RA MẮT DUONGDAI.VN
+        </span>
+        <h2 class="text-3xl sm:text-5xl font-semibold tracking-tight text-apple-textLight dark:text-white">
+          Đặc Quyền Mở Bán
+        </h2>
+        <p class="text-sm sm:text-base text-apple-mutedLight dark:text-apple-mutedDark mt-3">
+          Dành riêng cho <strong class="text-apple-textLight dark:text-white font-bold">100 khách hàng đầu tiên</strong> đăng ký trải nghiệm bộ sưu tập mới.
+        </p>
+      </div>
+
+      <!-- Realtime Countdown Timer Bar (04 Giờ : 13 Phút : 30 Giây) -->
+      <div class="p-6 rounded-3xl bg-white/80 dark:bg-apple-surfaceDark/80 backdrop-blur-xl border border-black/10 dark:border-white/10 mb-12 max-w-xl mx-auto shadow-sm" data-aos="zoom-in">
+        <div class="text-center text-[11px] font-bold tracking-widest text-apple-accent uppercase mb-4">
+          ƯU ĐÃI KẾT THÚC SAU:
+        </div>
+        <div class="grid grid-cols-4 gap-3 text-center">
+          <div class="p-3 rounded-2xl bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10">
+            <span id="hours" class="block text-2xl sm:text-4xl font-semibold text-apple-textLight dark:text-white font-mono">04</span>
+            <span class="text-[10px] text-apple-mutedLight dark:text-apple-mutedDark font-medium uppercase">Giờ</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10">
+            <span id="minutes" class="block text-2xl sm:text-4xl font-semibold text-apple-textLight dark:text-white font-mono">13</span>
+            <span class="text-[10px] text-apple-mutedLight dark:text-apple-mutedDark font-medium uppercase">Phút</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10">
+            <span id="seconds" class="block text-2xl sm:text-4xl font-semibold text-apple-textLight dark:text-white font-mono">30</span>
+            <span class="text-[10px] text-apple-mutedLight dark:text-apple-mutedDark font-medium uppercase">Giây</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10">
+            <span class="block text-2xl sm:text-4xl font-semibold text-apple-accent font-mono">19</span>
+            <span class="text-[10px] text-apple-mutedLight dark:text-apple-mutedDark font-medium uppercase">Suất còn</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing & Lead Form Card -->
+      <div class="rounded-3xl bg-white dark:bg-apple-surfaceDark border border-black/10 dark:border-white/10 overflow-hidden shadow-apple-light dark:shadow-apple-glass" data-aos="fade-up" data-aos-delay="100">
+        <div class="grid grid-cols-1 lg:grid-cols-12">
+          
+          <!-- Summary Column -->
+          <div class="lg:col-span-5 p-6 sm:p-8 bg-stone-50/70 dark:bg-white/[0.02] border-b lg:border-b-0 lg:border-r border-black/10 dark:border-white/10 flex flex-col justify-between">
+            <div>
+              <span class="inline-block px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-black/5 dark:bg-white/10 text-apple-accent mb-4 whitespace-nowrap">
+                COMBO CONTEMPORARY LOOK
+              </span>
+              <h3 class="text-xl sm:text-2xl font-bold text-apple-textLight dark:text-white whitespace-nowrap tracking-tight">
+                Combo Thời Trang Đương Đại
+              </h3>
+              <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark mt-1.5">1 Áo Sơ Mi Lụa (390k) + 1 Quần Tây Phom Rộng (450k)</p>
+
+              <!-- Price Box -->
+              <div class="mt-8">
+                <span class="text-xs text-apple-mutedLight dark:text-apple-mutedDark uppercase font-medium">Giá niêm yết:</span>
+                <div class="text-base text-stone-400 line-through font-semibold">840.000 VNĐ</div>
+                <div class="flex items-baseline gap-3 mt-1">
+                  <span class="text-3xl sm:text-4xl font-bold tracking-tight text-apple-textLight dark:text-white">590.000 VNĐ</span>
+                  <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500/20 text-apple-accent border border-amber-500/30">-30% OFF</span>
+                </div>
+              </div>
+
+              <!-- Gift Incentives -->
+              <div class="mt-8 space-y-3 text-xs sm:text-sm text-apple-textLight dark:text-stone-300">
+                <div class="flex items-center gap-2.5">
+                  <span class="text-apple-accent font-bold">🎁 Quà tặng:</span>
+                  <span>01 Khăn lụa bỏ túi cao cấp (trị giá 150.000₫)</span>
+                </div>
+                <div class="flex items-center gap-2.5">
+                  <span class="text-emerald-500 font-bold">🚚 Giao hàng:</span>
+                  <span>Miễn phí hỏa tốc toàn quốc</span>
+                </div>
+                <div class="flex items-center gap-2.5">
+                  <span class="text-blue-400 font-bold">🛡 Đồng kiểm:</span>
+                  <span>Thử đồ tại nhà, ưng ý mới thanh toán</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 pt-4 border-t border-black/5 dark:border-white/10 text-xs text-apple-mutedLight dark:text-apple-mutedDark">
+              Hotline tư vấn nhanh: <strong class="text-apple-textLight dark:text-white">1900 8866 (Miễn phí)</strong>
+            </div>
+          </div>
+
+          <!-- Checkout Lead Form -->
+          <div class="lg:col-span-7 p-6 sm:p-10">
+            <h4 class="text-xl font-semibold text-apple-textLight dark:text-white mb-2">Đăng Ký Đặt Hàng Nhận Ưu Đãi</h4>
+            <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark mb-6">Chuyên viên Kim Cương sẽ gọi xác nhận size và giao hàng trong vòng 15 phút.</p>
+
+            <!-- Hidden Iframe để nhận response không load lại trang và vượt qua chặn CORS khi mở file:/// -->
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(window.submitted){onOrderSuccessCallback();}"></iframe>
+
+            <form id="orderForm" action="https://script.google.com/macros/s/AKfycbz3GqSpzATJvOYvLm4WdpCtxAML7Sppre02-fXIDit51WzU5HPdyuNvu-NQh9uWNodN/exec" method="POST" target="hidden_iframe" onsubmit="handleOrderSubmit();" class="space-y-4">
+              
+              <div>
+                <label for="fullName" class="block text-xs font-semibold uppercase tracking-wider text-apple-mutedLight dark:text-apple-mutedDark mb-1.5">Họ và tên của bạn *</label>
+                <input type="text" id="fullName" name="name" required placeholder="Ví dụ: Nguyễn Văn Nam" class="w-full px-4 py-3 rounded-xl bg-stone-50 dark:bg-white/5 border border-black/10 dark:border-white/10 focus:ring-2 focus:ring-white focus:border-transparent text-sm text-apple-textLight dark:text-white placeholder-stone-400 outline-none transition-all">
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="phone" class="block text-xs font-semibold uppercase tracking-wider text-apple-mutedLight dark:text-apple-mutedDark mb-1.5">Số điện thoại *</label>
+                  <input type="tel" id="phone" name="phone" required placeholder="098xxxxxxxx" class="w-full px-4 py-3 rounded-xl bg-stone-50 dark:bg-white/5 border border-black/10 dark:border-white/10 focus:ring-2 focus:ring-white focus:border-transparent text-sm text-apple-textLight dark:text-white placeholder-stone-400 outline-none transition-all">
+                </div>
+                <div>
+                  <label for="productSelect" class="block text-xs font-semibold uppercase tracking-wider text-apple-mutedLight dark:text-apple-mutedDark mb-1.5">Sản phẩm chọn mua *</label>
+                  <select id="productSelect" name="product" class="w-full px-4 py-3 rounded-xl bg-stone-50 dark:bg-white/5 border border-black/10 dark:border-white/10 focus:ring-2 focus:ring-white focus:border-transparent text-sm text-apple-textLight dark:text-white outline-none transition-all">
+                    <option value="Trọn Combo Contemporary (590k)" class="dark:bg-stone-900" selected>Trọn Combo Contemporary (590k)</option>
+                    <option value="Áo sơ mi lụa tơ tằm cổ viền (390k)" class="dark:bg-stone-900">Áo sơ mi lụa tơ tằm cổ viền (390k)</option>
+                    <option value="Áo thun dệt kim Premium (220k)" class="dark:bg-stone-900">Áo thun dệt kim Premium (220k)</option>
+                    <option value="Quần tây phom rộng ly xếp (450k)" class="dark:bg-stone-900">Quần tây phom rộng ly xếp (450k)</option>
+                    <option value="Áo khoác Blazer lửng (490k)" class="dark:bg-stone-900">Áo khoác Blazer lửng (490k)</option>
+                    <option value="Áo Polo dệt sợi modal (280k)" class="dark:bg-stone-900">Áo Polo dệt sợi modal (280k)</option>
+                    <option value="Quần short may đo đũi (190k)" class="dark:bg-stone-900">Quần short may đo đũi (190k)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="sizeSelect" class="block text-xs font-semibold uppercase tracking-wider text-apple-mutedLight dark:text-apple-mutedDark mb-1.5">Kích cỡ (Size) *</label>
+                  <select id="sizeSelect" name="size" class="w-full px-4 py-3 rounded-xl bg-stone-50 dark:bg-white/5 border border-black/10 dark:border-white/10 focus:ring-2 focus:ring-white focus:border-transparent text-sm text-apple-textLight dark:text-white outline-none transition-all">
+                    <option value="Size S (Dưới 60kg / 1m60 - 1m68)" class="dark:bg-stone-900">Size S (Dưới 60kg / 1m60 - 1m68)</option>
+                    <option value="Size M (60 - 68kg / 1m68 - 1m74)" selected class="dark:bg-stone-900">Size M (60 - 68kg / 1m68 - 1m74)</option>
+                    <option value="Size L (69 - 76kg / 1m72 - 1m78)" class="dark:bg-stone-900">Size L (69 - 76kg / 1m72 - 1m78)</option>
+                    <option value="Size XL (77 - 85kg / 1m75 - 1m85)" class="dark:bg-stone-900">Size XL (77 - 85kg / 1m75 - 1m85)</option>
+                    <option value="Cần tư vấn size qua điện thoại" class="dark:bg-stone-900">Cần tư vấn size qua điện thoại</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="address" class="block text-xs font-semibold uppercase tracking-wider text-apple-mutedLight dark:text-apple-mutedDark mb-1.5">Địa chỉ nhận hàng *</label>
+                  <input type="text" id="address" name="address" required placeholder="Số nhà, đường, quận/huyện..." class="w-full px-4 py-3 rounded-xl bg-stone-50 dark:bg-white/5 border border-black/10 dark:border-white/10 focus:ring-2 focus:ring-white focus:border-transparent text-sm text-apple-textLight dark:text-white placeholder-stone-400 outline-none transition-all">
+                </div>
+              </div>
+
+              <!-- Input ẩn chứa timestamp -->
+              <input type="hidden" id="timestampInput" name="timestamp" value="">
+
+              <!-- High Contrast Button -->
+              <div class="pt-3">
+                <button type="submit" id="submitOrderBtn" class="w-full py-4 px-8 rounded-full bg-black text-white hover:bg-stone-800 dark:bg-white dark:text-black dark:hover:bg-stone-200 font-bold text-sm uppercase tracking-wider transition-all transform hover:-translate-y-0.5 shadow-md">
+                  SỞ HỮU NGAY HÔM NAY (ĐỒNG KIỂM TẬN NHÀ)
+                </button>
+              </div>
+
+              <div class="text-center text-[11px] text-apple-mutedLight dark:text-apple-mutedDark mt-3">
+                🔒 Cam kết bảo mật thông tin tuyệt đối. Kiểm tra sản phẩm trước khi thanh toán tiền mặt (COD).
+              </div>
+            </form>
+
+            <div id="orderSuccess" class="hidden mt-4 p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 text-xs text-center font-medium">
+              🎉 <strong>Đặt hàng thành công!</strong> Đội ngũ chăm sóc khách hàng của Kim Cương sẽ liên hệ trong ít phút để hỗ trợ bạn.
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       KHỐI 6: FOOTER & THÔNG TIN DOANH NGHIỆP
+       ========================================== -->
+  <footer class="bg-stone-50 dark:bg-apple-black border-t border-black/5 dark:border-white/10 pt-16 pb-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12">
+        
+        <!-- Corporate Identity -->
+        <div class="md:col-span-5 space-y-3.5">
+          <div>
+            <span class="text-2xl font-black text-apple-textLight dark:text-white tracking-tight">Kim Cương</span>
+            <p class="text-[10px] font-bold tracking-[0.2em] text-apple-accent uppercase mt-0.5">CONTEMPORARY VIETNAMESE FASHION · DUONGDAI.VN</p>
+          </div>
+          <p class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark leading-relaxed">
+            Thương hiệu trực thuộc <strong class="text-apple-textLight dark:text-white font-semibold">CÔNG TY TNHH THỜI TRANG NAM VIỆT</strong>. Sứ mệnh kiến tạo chuẩn mực thời trang đương đại với chất liệu tự nhiên, phom dáng chuẩn vóc dáng Việt và mức giá hợp lý nhất.
+          </p>
+          <div class="text-xs text-apple-mutedLight dark:text-apple-mutedDark space-y-1">
+            <p><strong>Mã số doanh nghiệp:</strong> 0109988776 do Sở KH&ĐT cấp</p>
+            <p><strong>Đại diện pháp luật:</strong> CÔNG TY TNHH THỜI TRANG NAM VIỆT</p>
+          </div>
+        </div>
+
+        <!-- Location & Contact -->
+        <div class="md:col-span-4 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-widest text-apple-textLight dark:text-white">Địa Chỉ & Liên Hệ</h4>
+          <ul class="text-xs sm:text-sm text-apple-mutedLight dark:text-apple-mutedDark space-y-2.5">
+            <li class="flex items-start gap-2">
+              <span class="text-apple-accent">📍</span>
+              <span>Showroom Flagship: Tầng 2, Trung Tâm Thiết Kế Sáng Tạo, Quận 1, TP. Hồ Chí Minh</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-apple-accent">📞</span>
+              <span>Hotline CSKH: <strong class="text-apple-textLight dark:text-white">1900 8866 (8:30 - 21:30)</strong></span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-apple-accent">✉️</span>
+              <span>Email: lienhe@duongdai.vn</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-widest text-apple-textLight dark:text-white">Kênh Chính Thức</h4>
+          <p class="text-xs text-apple-mutedLight dark:text-apple-mutedDark">Truy cập website chính thức: <strong class="text-apple-accent">duongdai.vn</strong></p>
+          <div class="flex items-center space-x-3 pt-1">
+            <a href="#" class="w-9 h-9 rounded-full bg-black/5 dark:bg-white/10 hover:bg-black/10 dark:hover:bg-white/20 flex items-center justify-center text-apple-textLight dark:text-white transition-colors" title="Facebook">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+            </a>
+            <a href="#" class="w-9 h-9 rounded-full bg-black/5 dark:bg-white/10 hover:bg-black/10 dark:hover:bg-white/20 flex items-center justify-center text-apple-textLight dark:text-white transition-colors" title="Instagram">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="w-9 h-9 rounded-full bg-black/5 dark:bg-white/10 hover:bg-black/10 dark:hover:bg-white/20 flex items-center justify-center text-apple-textLight dark:text-white transition-colors" title="TikTok">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-1.01-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Copyright -->
+      <div class="mt-12 pt-8 border-t border-black/5 dark:border-white/10 text-center text-xs text-apple-mutedLight dark:text-apple-mutedDark">
+        <p>© 2026 CÔNG TY TNHH THỜI TRANG NAM VIỆT · Kim Cương (DUONGDAI.VN). Tất cả quyền được bảo lưu.</p>
+        <p class="mt-1 text-[11px] opacity-75">Tối ưu tỷ lệ chuyển đổi CRO · Animate On Scroll · Apple Aesthetic.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       POPUP THÔNG BÁO ĐƠN HÀNG THỰC TẾ (LIVE SOCIAL PROOF)
+       ========================================== -->
+  <div 
+    id="liveOrderPopup" 
+    class="fixed bottom-6 left-6 z-50 transform translate-y-32 opacity-0 transition-all duration-500 ease-out pointer-events-none max-w-sm"
+  >
+    <div class="rounded-2xl bg-zinc-900/95 dark:bg-black/90 backdrop-blur-xl border border-white/15 text-white p-3.5 shadow-2xl flex items-center gap-3">
+      <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0 border border-amber-500/30">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+        </svg>
+      </div>
+      <div class="text-xs">
+        <div id="liveOrderCustomer" class="font-bold text-white">Nguyễn V*** (Hà Nội)</div>
+        <div id="liveOrderProduct" class="text-stone-300">vừa đặt mua Áo sơ mi lụa đương đại</div>
+        <div id="liveOrderTime" class="text-[10px] text-apple-accent mt-0.5">3 phút trước • Kiểm tra thành công</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       SCRIPTS: AOS, THEME, COUNTDOWN (04:13:30), LIVE ORDERS
+       ========================================== -->
+  <!-- AOS JS CDN -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    // 1. KHỞI TẠO AOS (Animate On Scroll)
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 60
+    });
+
+    // 2. DARK / LIGHT MODE LOGIC WITH LOCALSTORAGE
+    (function initTheme() {
+      const htmlEl = document.documentElement;
+      const toggleBtn = document.getElementById('themeToggleBtn');
+      
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light') {
+        htmlEl.classList.remove('dark');
+      } else {
+        htmlEl.classList.add('dark'); // Mặc định Dark mode
+      }
+
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          if (htmlEl.classList.contains('dark')) {
+            htmlEl.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+          } else {
+            htmlEl.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+          }
+        });
+      }
+    })();
+
+    // 3. COUNTDOWN TIMER LOGIC (04 Giờ : 13 Phút : 30 Giây)
+    (function initCountdown() {
+      let totalSeconds = 4 * 3600 + 13 * 60 + 30;
+      
+      const hoursEl = document.getElementById('hours');
+      const minutesEl = document.getElementById('minutes');
+      const secondsEl = document.getElementById('seconds');
+
+      if (!hoursEl || !minutesEl || !secondsEl) return;
+
+      const interval = setInterval(() => {
+        if (totalSeconds <= 0) {
+          clearInterval(interval);
+          return;
+        }
+        totalSeconds--;
+
+        const h = Math.floor(totalSeconds / 3600);
+        const m = Math.floor((totalSeconds % 3600) / 60);
+        const s = totalSeconds % 60;
+
+        hoursEl.textContent = String(h).padStart(2, '0');
+        minutesEl.textContent = String(m).padStart(2, '0');
+        secondsEl.textContent = String(s).padStart(2, '0');
+      }, 1000);
+    })();
+
+    // 4. LIVE SOCIAL PROOF POPUP NOTIFICATIONS (Chu kỳ 20s, hiển thị 5s)
+    (function initLiveOrderPopup() {
+      const orders = [
+        { customer: "Nguyễn V*** (Hà Nội)", product: "vừa đặt mua Áo sơ mi lụa đương đại", time: "3 phút trước" },
+        { customer: "Trần M*** (TP. Hồ Chí Minh)", product: "vừa đặt mua Combo Contemporary Look", time: "7 phút trước" },
+        { customer: "Lê T*** (Đà Nẵng)", product: "vừa đặt mua Quần tây phom rộng", time: "12 phút trước" },
+        { customer: "Phạm K*** (Cần Thơ)", product: "vừa đặt mua Áo khoác Blazer lửng", time: "5 phút trước" },
+        { customer: "Hoàng A*** (Hải Phòng)", product: "vừa đặt mua Áo Polo dệt sợi modal", time: "1 phút trước" }
+      ];
+
+      const popup = document.getElementById('liveOrderPopup');
+      const customerEl = document.getElementById('liveOrderCustomer');
+      const productEl = document.getElementById('liveOrderProduct');
+      const timeEl = document.getElementById('liveOrderTime');
+
+      if (!popup || !customerEl || !productEl || !timeEl) return;
+
+      let currentIndex = 0;
+
+      function showNotification() {
+        const order = orders[currentIndex];
+        customerEl.textContent = order.customer;
+        productEl.textContent = order.product;
+        timeEl.textContent = `${order.time} • Đã xác nhận đơn`;
+
+        popup.classList.remove('translate-y-32', 'opacity-0');
+        popup.classList.add('translate-y-0', 'opacity-100');
+
+        setTimeout(() => {
+          popup.classList.remove('translate-y-0', 'opacity-100');
+          popup.classList.add('translate-y-32', 'opacity-0');
+        }, 5000);
+
+        currentIndex = (currentIndex + 1) % orders.length;
+      }
+
+      setTimeout(showNotification, 4000);
+      setInterval(showNotification, 20000);
+    })();
+
+    // 5. ORDER SUBMISSION HANDLER (GOOGLE SHEETS QUA HIDDEN IFRAME)
+    window.submitted = false;
+
+    function handleOrderSubmit() {
+      const submitBtn = document.getElementById('submitOrderBtn');
+      const timestampInput = document.getElementById('timestampInput');
+      
+      // Gán thời gian gửi hiện tại vào hidden input
+      if (timestampInput) {
+        timestampInput.value = new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' });
+      }
+
+      // Đổi trạng thái nút bấm sang Loading
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+        submitBtn.innerHTML = `
+          <span class="inline-flex items-center gap-2">
+            <svg class="animate-spin h-4 w-4 text-current" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+            </svg>
+            Đang gửi đơn hàng...
+          </span>
+        `;
+      }
+
+      window.submitted = true;
+
+      // Đặt timeout 2s để phòng trường hợp iframe không trigger onload
+      setTimeout(() => {
+        if (window.submitted) {
+          onOrderSuccessCallback();
+        }
+      }, 2500);
+    }
+
+    function onOrderSuccessCallback() {
+      const submitBtn = document.getElementById('submitOrderBtn');
+      const successBox = document.getElementById('orderSuccess');
+      const formEl = document.getElementById('orderForm');
+
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+        submitBtn.innerHTML = 'SỞ HỮU NGAY HÔM NAY (ĐỒNG KIỂM TẬN NHÀ)';
+      }
+
+      if (successBox) {
+        successBox.classList.remove('hidden');
+        successBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      if (formEl) {
+        formEl.reset();
+      }
+
+      window.submitted = false;
+    }
+  </script>
+
+</body>
+</html>
