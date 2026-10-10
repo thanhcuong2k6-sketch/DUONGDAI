@@ -1,0 +1,617 @@
+{
+  "site_info": {
+    "name": "ĐƯƠNG ĐẠI",
+    "slogan": "Thời Trang & May Đo Đương Đại Phong Cách Việt",
+    "url": "https://thanhcuong2k6-sketch.github.io/DUONGDAI/",
+    "email": "contact@duongdai.vn",
+    "phone": "0988.123.456",
+    "address": "68 Phố Đương Đại, Quận 1, TP. Hồ Chí Minh"
+  },
+  "traffic_analytics": {
+    "total_visitors": 12450,
+    "sources": [
+      {
+        "name": "Facebook Ads",
+        "visits": 5230,
+        "percentage": 42,
+        "icon": "fa-brands fa-facebook",
+        "color": "blue"
+      },
+      {
+        "name": "TikTok Ads & Video",
+        "visits": 3480,
+        "percentage": 28,
+        "icon": "fa-brands fa-tiktok",
+        "color": "slate"
+      },
+      {
+        "name": "Zalo OA & Chat",
+        "visits": 1740,
+        "percentage": 14,
+        "icon": "fa-solid fa-comment-dots",
+        "color": "cyan"
+      },
+      {
+        "name": "Google Tìm kiếm (SEO)",
+        "visits": 1370,
+        "percentage": 11,
+        "icon": "fa-brands fa-google",
+        "color": "emerald"
+      },
+      {
+        "name": "Truy cập trực tiếp (Direct)",
+        "visits": 630,
+        "percentage": 5,
+        "icon": "fa-solid fa-link",
+        "color": "amber"
+      }
+    ]
+  },
+  "funnel_analytics": {
+    "page_views": 12450,
+    "product_clicks": 6820,
+    "add_to_cart": 1420,
+    "checkout_started": 620,
+    "orders_completed": 385
+  },
+  "marketing_banner": {
+    "top_announcement": "✨ BỘ SƯU TẬP THỜI TRANG ĐƯƠNG ĐẠI 2026: Miễn phí vận chuyển toàn quốc cho đơn từ 500.000 VNĐ | Mã DUONGDAI10",
+    "is_announcement_active": true
+  },
+  "hero_slides": [
+    {
+      "id": "hero-1",
+      "title": "Tinh Hoa Văn Hóa & Phom Dáng Chuẩn Việt",
+      "subtitle": "Bộ sưu tập may đo lụa tơ tằm, sợi modal và đũi mộc phong cách đương đại",
+      "cta_text": "Khám Phá Bộ Sưu Tập",
+      "cta_link": "#collection",
+      "badge": "BST MỚI 2026",
+      "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=1400&q=80",
+      "active": true
+    },
+    {
+      "id": "hero-2",
+      "title": "Nghệ Thuật Thêu Họa Tiết Truyền Thống",
+      "subtitle": "Kỹ nghệ thủ công tinh xảo trên nền chất liệu cao cấp",
+      "cta_text": "Xem Best Sellers",
+      "cta_link": "#bestseller",
+      "badge": "BEST SELLER",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1400&q=80",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "dd-prod-01",
+      "name": "Áo sơ mi lụa tơ tằm cổ viền đương đại",
+      "sku": "DD-SM-01",
+      "category": "Áo Sơ Mi Thiết Kế",
+      "original_price": 490000,
+      "sale_price": 390000,
+      "cogs": 150000,
+      "total_stock": 45,
+      "low_stock_threshold": 10,
+      "badge": "NEW ARRIVAL",
+      "certification": "CHỨNG NHẬN CHUẨN Lụa Tơ Tằm 100%",
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+      "rating": 5,
+      "reviews_count": 58,
+      "clicks_count": 1840,
+      "status": "active",
+      "short_desc": "Lụa tơ tằm dệt thoáng mát, viền cổ tối giản tinh xảo.",
+      "variants": [
+        {
+          "size": "S",
+          "color": "Xanh Navy",
+          "stock": 8,
+          "sku": "DD-SM-01-S-NV"
+        },
+        {
+          "size": "M",
+          "color": "Xanh Navy",
+          "stock": 15,
+          "sku": "DD-SM-01-M-NV"
+        },
+        {
+          "size": "L",
+          "color": "Xanh Navy",
+          "stock": 14,
+          "sku": "DD-SM-01-L-NV"
+        },
+        {
+          "size": "XL",
+          "color": "Xanh Navy",
+          "stock": 8,
+          "sku": "DD-SM-01-XL-NV"
+        }
+      ]
+    },
+    {
+      "id": "dd-prod-02",
+      "name": "Áo thun dệt kim Premium thoáng khí",
+      "sku": "DD-AT-02",
+      "category": "Áo Thun Dệt Kim",
+      "original_price": 280000,
+      "sale_price": 220000,
+      "cogs": 85000,
+      "total_stock": 80,
+      "low_stock_threshold": 15,
+      "badge": "BEST SELLER",
+      "certification": "CHỨNG NHẬN CHUẨN Dệt Mắt Kim 4D",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "reviews_count": 124,
+      "clicks_count": 2150,
+      "status": "active",
+      "short_desc": "Cấu trúc dệt mắt kim thông thoáng, co giãn 4 chiều.",
+      "variants": [
+        {
+          "size": "S",
+          "color": "Rêu Đương Đại",
+          "stock": 18,
+          "sku": "DD-AT-02-S-RE"
+        },
+        {
+          "size": "M",
+          "color": "Rêu Đương Đại",
+          "stock": 28,
+          "sku": "DD-AT-02-M-RE"
+        },
+        {
+          "size": "L",
+          "color": "Rêu Đương Đại",
+          "stock": 22,
+          "sku": "DD-AT-02-L-RE"
+        },
+        {
+          "size": "XL",
+          "color": "Rêu Đương Đại",
+          "stock": 12,
+          "sku": "DD-AT-02-XL-RE"
+        }
+      ]
+    },
+    {
+      "id": "dd-prod-03",
+      "name": "Quần tây phom rộng ly xếp tối giản",
+      "sku": "DD-QT-03",
+      "category": "Quần Tây Đương Đại",
+      "original_price": 550000,
+      "sale_price": 450000,
+      "cogs": 180000,
+      "total_stock": 24,
+      "low_stock_threshold": 10,
+      "badge": "NEW ARRIVAL",
+      "certification": "CHỨNG NHẬN CHUẨN Rập Phom Chuẩn Việt",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.95,
+      "reviews_count": 42,
+      "clicks_count": 1280,
+      "status": "active",
+      "short_desc": "Phom suông hiện đại tôn dáng chân, lưng quần êm ái.",
+      "variants": [
+        {
+          "size": "S (29)",
+          "color": "Nâu Đất",
+          "stock": 4,
+          "sku": "DD-QT-03-S-BR"
+        },
+        {
+          "size": "M (30)",
+          "color": "Nâu Đất",
+          "stock": 9,
+          "sku": "DD-QT-03-M-BR"
+        },
+        {
+          "size": "L (31)",
+          "color": "Nâu Đất",
+          "stock": 7,
+          "sku": "DD-QT-03-L-BR"
+        },
+        {
+          "size": "XL (32)",
+          "color": "Nâu Đất",
+          "stock": 4,
+          "sku": "DD-QT-03-XL-BR"
+        }
+      ]
+    },
+    {
+      "id": "dd-prod-04",
+      "name": "Áo khoác Blazer lửng phong cách Việt",
+      "sku": "DD-BZ-04",
+      "category": "Blazer Đương Đại",
+      "original_price": 620000,
+      "sale_price": 490000,
+      "cogs": 210000,
+      "total_stock": 18,
+      "low_stock_threshold": 8,
+      "badge": "BEST SELLER",
+      "certification": "CHỨNG NHẬN CHUẨN Kỹ Nghệ Thủ Công",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80",
+      "rating": 5,
+      "reviews_count": 89,
+      "clicks_count": 1960,
+      "status": "active",
+      "short_desc": "Vai đệm nhẹ tự nhiên, tôn dáng thanh lịch cho nam & nữ.",
+      "variants": [
+        {
+          "size": "S",
+          "color": "Camel Nâu Vàng",
+          "stock": 3,
+          "sku": "DD-BZ-04-S-CA"
+        },
+        {
+          "size": "M",
+          "color": "Camel Nâu Vàng",
+          "stock": 7,
+          "sku": "DD-BZ-04-M-CA"
+        },
+        {
+          "size": "L",
+          "color": "Camel Nâu Vàng",
+          "stock": 5,
+          "sku": "DD-BZ-04-L-CA"
+        },
+        {
+          "size": "XL",
+          "color": "Camel Nâu Vàng",
+          "stock": 3,
+          "sku": "DD-BZ-04-XL-CA"
+        }
+      ]
+    },
+    {
+      "id": "dd-prod-05",
+      "name": "Áo Polo dệt sợi modal phom chuẩn Việt",
+      "sku": "DD-PL-05",
+      "category": "Polo Minimalist",
+      "original_price": 350000,
+      "sale_price": 280000,
+      "cogs": 110000,
+      "total_stock": 60,
+      "low_stock_threshold": 12,
+      "badge": "NEW ARRIVAL",
+      "certification": "CHỨNG NHẬN CHUẨN Sợi Modal Sinh Thái",
+      "image": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.85,
+      "reviews_count": 67,
+      "clicks_count": 890,
+      "status": "active",
+      "short_desc": "Sợi Modal gỗ sồi mềm mượt, cổ áo ép nhiệt chống quăn mép.",
+      "variants": [
+        {
+          "size": "S",
+          "color": "Xanh Đậm Họa Tiết",
+          "stock": 12,
+          "sku": "DD-PL-05-S-NV"
+        },
+        {
+          "size": "M",
+          "color": "Xanh Đậm Họa Tiết",
+          "stock": 22,
+          "sku": "DD-PL-05-M-NV"
+        },
+        {
+          "size": "L",
+          "color": "Xanh Đậm Họa Tiết",
+          "stock": 18,
+          "sku": "DD-PL-05-L-NV"
+        },
+        {
+          "size": "XL",
+          "color": "Xanh Đậm Họa Tiết",
+          "stock": 8,
+          "sku": "DD-PL-05-XL-NV"
+        }
+      ]
+    },
+    {
+      "id": "dd-prod-06",
+      "name": "Quần short may đo vải đũi tự nhiên",
+      "sku": "DD-QS-06",
+      "category": "Quần Short May Đo",
+      "original_price": 250000,
+      "sale_price": 190000,
+      "cogs": 75000,
+      "total_stock": 95,
+      "low_stock_threshold": 15,
+      "badge": "BEST SELLER",
+      "certification": "CHỨNG NHẬN CHUẨN Đũi Mộc Tự Nhiên",
+      "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "reviews_count": 110,
+      "clicks_count": 1420,
+      "status": "active",
+      "short_desc": "Đũi mộc mạc thoáng nhiệt, phom may đo thoải mái vận động.",
+      "variants": [
+        {
+          "size": "S",
+          "color": "Be Tự Nhiên Thêu",
+          "stock": 20,
+          "sku": "DD-QS-06-S-BE"
+        },
+        {
+          "size": "M",
+          "color": "Be Tự Nhiên Thêu",
+          "stock": 35,
+          "sku": "DD-QS-06-M-BE"
+        },
+        {
+          "size": "L",
+          "color": "Be Tự Nhiên Thêu",
+          "stock": 25,
+          "sku": "DD-QS-06-L-BE"
+        },
+        {
+          "size": "XL",
+          "color": "Be Tự Nhiên Thêu",
+          "stock": 15,
+          "sku": "DD-QS-06-XL-BE"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "DD-892102",
+      "customer_name": "Nguyễn Hoàng Nam",
+      "phone": "0912.839.112",
+      "address": "Tòa Landmark 81, P. 22, Bình Thạnh, TP.HCM",
+      "items": [
+        {
+          "name": "Áo sơ mi lụa tơ tằm cổ viền đương đại",
+          "size": "L",
+          "color": "Xanh Navy",
+          "quantity": 1,
+          "price": 390000
+        }
+      ],
+      "total_amount": 390000,
+      "voucher_code": "",
+      "discount": 0,
+      "created_at": "10/10/2026 14:15",
+      "status": "Chờ xác nhận",
+      "shipping_carrier": "Giao Hàng Tiết Kiệm (GHTK)",
+      "tracking_code": "GHTK-DD892102-VN",
+      "is_viewed": false,
+      "traffic_source": "Facebook Ads"
+    },
+    {
+      "id": "DD-892095",
+      "customer_name": "Trần Thị Mai Anh",
+      "phone": "0988.452.991",
+      "address": "45 Lê Duẩn, Quận 1, TP.HCM",
+      "items": [
+        {
+          "name": "Áo khoác Blazer lửng phong cách Việt",
+          "size": "M",
+          "color": "Camel Nâu Vàng",
+          "quantity": 1,
+          "price": 490000
+        },
+        {
+          "name": "Quần tây phom rộng ly xếp tối giản",
+          "size": "M (30)",
+          "color": "Nâu Đất",
+          "quantity": 1,
+          "price": 450000
+        }
+      ],
+      "total_amount": 890000,
+      "voucher_code": "DUONGDAI10",
+      "discount": 50000,
+      "created_at": "10/10/2026 13:42",
+      "status": "Đang giao hàng",
+      "shipping_carrier": "Giao Hàng Nhanh (GHN)",
+      "tracking_code": "GHN-HCM-992108",
+      "is_viewed": true,
+      "traffic_source": "TikTok Ads & Video"
+    },
+    {
+      "id": "DD-891980",
+      "customer_name": "Lê Vũ Long",
+      "phone": "0903.119.782",
+      "address": "128 Phố Huế, Hai Bà Trưng, Hà Nội",
+      "items": [
+        {
+          "name": "Áo thun dệt kim Premium thoáng khí",
+          "size": "XL",
+          "color": "Rêu Đương Đại",
+          "quantity": 2,
+          "price": 220000
+        }
+      ],
+      "total_amount": 440000,
+      "voucher_code": "",
+      "discount": 0,
+      "created_at": "10/10/2026 11:20",
+      "status": "Giao thành công",
+      "shipping_carrier": "Viettel Post",
+      "tracking_code": "VTP-HN-883192",
+      "is_viewed": true,
+      "traffic_source": "Google Tìm kiếm (SEO)"
+    },
+    {
+      "id": "DD-891820",
+      "customer_name": "Đặng Bảo Châu",
+      "phone": "0934.722.189",
+      "address": "76 Nguyễn Huệ, Quận 1, TP.HCM",
+      "items": [
+        {
+          "name": "Quần short may đo vải đũi tự nhiên",
+          "size": "M",
+          "color": "Be Tự Nhiên Thêu",
+          "quantity": 1,
+          "price": 190000
+        }
+      ],
+      "total_amount": 190000,
+      "voucher_code": "",
+      "discount": 0,
+      "created_at": "09/10/2026 16:30",
+      "status": "Giao thành công",
+      "shipping_carrier": "GHTK",
+      "tracking_code": "GHTK-HCM-771209",
+      "is_viewed": true,
+      "traffic_source": "Zalo OA & Chat"
+    }
+  ],
+  "canceled_orders": [
+    {
+      "id": "DD-891740",
+      "customer_name": "Phạm Quốc Tuấn",
+      "phone": "0977.123.890",
+      "total_amount": 450000,
+      "reason": "Khách chọn nhầm size, muốn đổi mẫu khác",
+      "created_at": "09/10/2026 14:10",
+      "status": "Đã hủy",
+      "traffic_source": "Facebook Ads"
+    },
+    {
+      "id": "DD-891620",
+      "customer_name": "Vũ Minh Trí",
+      "phone": "0918.552.190",
+      "total_amount": 390000,
+      "reason": "Thời gian giao hàng quá lâu",
+      "created_at": "08/10/2026 10:05",
+      "status": "Đã hủy",
+      "traffic_source": "TikTok Ads & Video"
+    },
+    {
+      "id": "DD-891510",
+      "customer_name": "Đỗ Thu Hương",
+      "phone": "0909.882.114",
+      "total_amount": 490000,
+      "reason": "Không liên lạc được khi nhân viên shipper giao hàng (Hoàn hàng)",
+      "created_at": "07/10/2026 18:22",
+      "status": "Hoàn hàng",
+      "traffic_source": "Truy cập trực tiếp (Direct)"
+    }
+  ],
+  "abandoned_carts": [
+    {
+      "id": "ab-01",
+      "customer_name": "Lê Thúy Ngân",
+      "phone": "0945.182.900",
+      "email": "thuyngan.design@gmail.com",
+      "items": [
+        {
+          "name": "Áo khoác Blazer lửng phong cách Việt",
+          "size": "M",
+          "color": "Camel Nâu Vàng",
+          "price": 490000,
+          "quantity": 1
+        }
+      ],
+      "total_amount": 490000,
+      "abandoned_at": "35 phút trước",
+      "traffic_source": "Facebook Ads",
+      "status": "Chưa nhắc"
+    },
+    {
+      "id": "ab-02",
+      "customer_name": "Hoàng Minh Đức",
+      "phone": "0919.223.881",
+      "email": "duc.hoang@fpt.com.vn",
+      "items": [
+        {
+          "name": "Áo sơ mi lụa tơ tằm cổ viền đương đại",
+          "size": "L",
+          "color": "Xanh Navy",
+          "price": 390000,
+          "quantity": 1
+        },
+        {
+          "name": "Quần short may đo vải đũi tự nhiên",
+          "size": "L",
+          "color": "Be Tự Nhiên Thêu",
+          "price": 190000,
+          "quantity": 1
+        }
+      ],
+      "total_amount": 580000,
+      "abandoned_at": "2 giờ trước",
+      "traffic_source": "TikTok Ads & Video",
+      "status": "Đã gửi mã Zalo"
+    },
+    {
+      "id": "ab-03",
+      "customer_name": "Bùi Văn Thành",
+      "phone": "0938.991.022",
+      "email": "thanh.bui92@gmail.com",
+      "items": [
+        {
+          "name": "Quần tây phom rộng ly xếp tối giản",
+          "size": "M (30)",
+          "color": "Nâu Đất",
+          "price": 450000,
+          "quantity": 1
+        }
+      ],
+      "total_amount": 450000,
+      "abandoned_at": "5 giờ trước",
+      "traffic_source": "Zalo OA & Chat",
+      "status": "Chưa nhắc"
+    }
+  ],
+  "vouchers": [
+    {
+      "id": "v-1",
+      "code": "DUONGDAI10",
+      "type": "percentage",
+      "value": 10,
+      "min_spend": 300000,
+      "max_discount": 100000,
+      "status": "active",
+      "usage_limit": 500,
+      "used_count": 218,
+      "expires_at": "2026-12-31"
+    },
+    {
+      "id": "v-2",
+      "code": "FREESHIP500K",
+      "type": "fixed",
+      "value": 30000,
+      "min_spend": 500000,
+      "status": "active",
+      "usage_limit": 1000,
+      "used_count": 642,
+      "expires_at": "2026-11-30"
+    },
+    {
+      "id": "v-3",
+      "code": "FLASHSALE50K",
+      "type": "fixed",
+      "value": 50000,
+      "min_spend": 700000,
+      "status": "active",
+      "usage_limit": 200,
+      "used_count": 145,
+      "expires_at": "2026-10-31"
+    }
+  ],
+  "tracking": {
+    "gtm_id": "GTM-DD9821X",
+    "fb_pixel_id": "892019283719283",
+    "ga4_id": "G-DD82910XYZ",
+    "tiktok_pixel_id": "C8928192812019"
+  },
+  "activity_logs": [
+    {
+      "type": "order",
+      "text": "Khách Đặng Bảo Châu đã hoàn tất giao hàng đơn DD-891820",
+      "time": "16:30"
+    },
+    {
+      "type": "cart",
+      "text": "Khách Lê Thúy Ngân vừa thêm 'Áo khoác Blazer lửng' vào giỏ",
+      "time": "14:20"
+    },
+    {
+      "type": "view",
+      "text": "Khách từ Facebook Ads đang xem 'Áo sơ mi lụa tơ tằm'",
+      "time": "14:18"
+    }
+  ]
+}
